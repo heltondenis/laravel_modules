@@ -13,6 +13,6 @@
 
 Route::group(['prefix' => 'auditoria'], function () {
     Route::get('/', function () {
-        dd('This is the Auditoria module index page. Build something great!');
+        dd('Auditoria');
     });
 });
